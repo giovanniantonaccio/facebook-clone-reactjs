@@ -1,8 +1,16 @@
 import React from "react";
 import "./App.css";
 
+import Header from "./components/Header.js";
+import Feed from "./components/Feed.js";
+
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Header />
+      <Feed />
+    </>
+  );
 }
 
 export default App;
