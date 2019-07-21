@@ -19,17 +19,17 @@ div.post-content .post-header > img {
   border-radius: 50%;
 }
 
-div.post-content .post-header .post-info {
+div.post-content .post-header .post-header-info {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
 
-div.post-content .post-header .post-info strong {
+div.post-content .post-header .post-header-info strong {
   font-size: 14px;
 }
 
-div.post-content .post-header .post-info small {
+div.post-content .post-header .post-header-info small {
   font-size: 11px;
   color: #9a9a9a;
   margin-top: 2px;
