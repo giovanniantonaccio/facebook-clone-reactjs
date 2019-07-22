@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import "./Post.css";
-import { comment } from "postcss";
 
 function Post({ author, date, content, comments }) {
   return (
@@ -28,5 +29,12 @@ function Post({ author, date, content, comments }) {
     </div>
   );
 }
+
+Post.propTypes = {
+  author: PropTypes.object.isRequired,
+  date: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  comments: PropTypes.array
+};
 
 export default Post;
